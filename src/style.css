@@ -1,5 +1,6 @@
 .banner {
   text-align: center;
+  margin-top: 8%;
 }
 .banner h1 {
   font-size: 50px;
@@ -14,16 +15,86 @@
 .contact-link {
   text-decoration: none;
   border-radius: 5px;
-  background: rgb(24, 24, 247);
+  background: #6c63ff;
   padding: 20px;
+  color: white;
+}
+.contact-link:hover {
   color: white;
 }
 .about-link {
   text-decoration: none;
   border-radius: 5px;
-  border: 1px solid rgb(24, 24, 247);
+  border: 1px solid #6c63ff;
   background: white;
   padding: 20px;
   color: rgb(24, 24, 247);
   margin-left: 10px;
+}
+.about-banner {
+  text-align: center;
+}
+.about-banner h1 {
+  font-size: 100px;
+}
+.about-banner h2 {
+  font-size: 25px;
+  opacity: 0.6;
+}
+.about-banner p {
+  font-size: 18px;
+}
+.webpage h3 {
+  font-size: 45px;
+}
+.webpage p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.launch-btn {
+  padding: 20px;
+  text-decoration: none;
+  background: #6c63ff;
+  color: white;
+}
+.launch-btn:hover {
+  color: white;
+}
+@media (max-width: 576px) {
+  .about-banner h1 {
+    font-size: 40px;
+  }
+  .about-banner h2 {
+    font-size: 20px;
+  }
+  .about-banner p {
+    font-size: 14px;
+  }
+  .banner h1 {
+    font-size: 35px;
+  }
+  .banner h2 {
+    font-size: 40px;
+  }
+  .banner h3 {
+    font-size: 16px;
+  }
+  .banner {
+    margin-top: 14%;
+  }
+  .mob-img {
+    display: none;
+  }
+  .webpage {
+    text-align: center;
+  }
+  .webpage h3 {
+    font-size: 35px;
+  }
+  .webpage p {
+    line-height: 1.6;
+  }
+  .launch-btn {
+    display: block;
+  }
 }
